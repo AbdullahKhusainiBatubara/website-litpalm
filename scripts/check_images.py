@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Check `main.html` for potential causes of a stray 'm' appearing on images.
+Check `index.html` for potential causes of a stray 'm' appearing on images.
 
 Checks performed:
 - Finds <img> tags and prints their `alt` values and `src` paths.
@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-HTML = ROOT / 'main.html'
+HTML = ROOT / 'index.html'
 
 html = HTML.read_text(encoding='utf-8')
 

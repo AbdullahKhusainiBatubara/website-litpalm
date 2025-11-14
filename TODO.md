@@ -1,11 +1,11 @@
 # Website Fixes TODO
 
-## CSS Fixes (main.css)
+## CSS Fixes (style.css)
 
 - [x] Add backdrop-filter: blur(10px) to .nav-menu in mobile styles
 - [x] Check for styling inconsistencies and dark mode issues
 
-## JS Fixes (main.js)
+## JS Fixes (output.js)
 
 - [x] Remove conflicting setupGalleryLightbox() call (conflicts with modal setup)
 - [x] Update header scroll background to handle dark mode properly
