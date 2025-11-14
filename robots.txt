@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Robots.txt untuk LitPalm Website -->
+User-agent: *
+Allow: /
+
+# Prioritas crawling untuk halaman penting
+Crawl-delay: 1
+
+# Sitemap locations
+Sitemap: https://litpalm.id/sitemap-index.xml
+Sitemap: https://litpalm.id/sitemap.xml
+Sitemap: https://litpalm.id/mobile-sitemap.xml
+Sitemap: https://litpalm.id/xml-sitemap.xml
+<!-- Revisi: Menambahkan XML sitemap ke robots.txt -->
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Disallow temporary or development files
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /*.tmp$
+Disallow: /*.bak$
+
+# Allow specific file types
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+Allow: *.ico
+
+# RSS feed
+Allow: /rss.xml
+
+# XML files for structured data
+Allow: /products.xml
+Allow: /education.xml
+Allow: /contact.xml

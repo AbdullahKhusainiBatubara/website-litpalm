@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+    
+    <channel>
+        <title>LitPalm - Literasi dan Pengelolaan Limbah Sawit</title>
+        <description>Platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan dan inovatif</description>
+        <link>https://litpalm.id/</link>
+        <language>id</language>
+        <copyright>© 2024 LitPalm. Hak Cipta Dilindungi.</copyright>
+        <managingEditor>info@litpalm.id (LitPalm Team)</managingEditor>
+        <webMaster>info@litpalm.id (LitPalm Team)</webMaster>
+        <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
+        <category>Lingkungan</category>
+        <category>Pertanian</category>
+        <category>Limbah Sawit</category>
+        <generator>LitPalm RSS Generator</generator>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <atom:link href="https://litpalm.id/rss.xml" rel="self" type="application/rss+xml"/>
+        <image>
+            <url>https://litpalm.id/assets/logo.png</url>
+            <title>LitPalm Logo</title>
+            <link>https://litpalm.id/</link>
+            <description>LitPalm - Literasi dan Pengelolaan Limbah Sawit</description>
+            <width>144</width>
+            <height>144</height>
+        </image>
+        
+        <!-- Artikel 1: Pengenalan Limbah Kelapa Sawit -->
+        <item>
+            <title>Pengelolaan Limbah Kelapa Sawit: Solusi Ramah Lingkungan untuk Masa Depan</title>
+            <description>Pelajari cara mengelola limbah kelapa sawit secara bertanggung jawab dan mengubahnya menjadi produk bernilai ekonomis yang ramah lingkungan.</description>
+            <link>https://litpalm.id/#edukasi</link>
+            <guid isPermaLink="true">https://litpalm.id/#edukasi</guid>
+            <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+            <dc:creator>LitPalm Team</dc:creator>
+            <category>Lingkungan</category>
+            <category>Pendidikan</category>
+            <category>Limbah Sawit</category>
+            <content:encoded><![CDATA[
+                <h2>Pengelolaan Limbah Kelapa Sawit: Solusi Ramah Lingkungan</h2>
+                <p>Indonesia sebagai produsen kelapa sawit terbesar di dunia menghasilkan jutaan ton limbah setiap tahunnya. Tanpa pengelolaan yang tepat, limbah ini dapat mencemari lingkungan dan menyebabkan masalah kesehatan.</p>
+                <h3>Jenis-Jenis Limbah Kelapa Sawit</h3>
+                <ul>
+                    <li><strong>Janjang Kosong:</strong> Sekitar 23% dari total TBS (Tandan Buah Segar)</li>
+                    <li><strong>Cangkang Sawit:</strong> Sekitar 6% dari total TBS</li>
+                    <li><strong>Sabut Sawit:</strong> Sekitar 12% dari total TBS</li>
+                    <li><strong>Cairan Limbah:</strong> Dari proses pengolahan pabrik</li>
+                </ul>
+                <p>LitPalm hadir untuk memberikan edukasi tentang bagaimana mengubah limbah ini menjadi produk yang bernilai dan berkelanjutan.</p>
+            ]]></content:encoded>
+            <enclosure url="https://litpalm.id/assets/hero-image.jpg" type="image/jpeg" length="167671"/>
+        </item>
+        
+        <!-- Artikel 2: Bio-Briket -->
+        <item>
+            <title>Bio-Briket dari Janjang Kosong: Bahan Bakar Alternatif Ramah Lingkungan</title>
+            <description>Temukan bagaimana janjang kosong kelapa sawit dapat diolah menjadi bio-briket berkualitas tinggi sebagai alternatif bahan bakar fosil.</description>
+            <link>https://litpalm.id/#galeri</link>
+            <guid isPermaLink="true">https://litpalm.id/#galeri</guid>
+            <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+            <dc:creator>LitPalm Team</dc:creator>
+            <category>Energi</category>
+            <category>Inovasi</category>
+            <category>Bio-Briket</category>
+            <content:encoded><![CDATA[
+                <h2>Bio-Briket: Energi Masa Depan dari Limbah Sawit</h2>
+                <p>Janjang kosong kelapa sawit yang selama ini dianggap limbah dapat diubah menjadi bio-briket berkualitas tinggi. Produk ini memiliki nilai kalori yang baik dan ramah lingkungan.</p>
+                <h3>Keunggulan Bio-Briket dari Janjang Kosong:</h3>
+                <ul>
+                    <li>Nilai kalori 4.000-4.500 kcal/kg</li>
+                    <li>Rendah abu (kurang dari 5%)</li>
+                    <li>Emisi CO₂ lebih rendah 60% dari batubara</li>
+                    <li>Harga lebih ekonomis</li>
+                    <li>Terbarukan dan berkelanjutan</li>
+                </ul>
+                <p>Dengan menggunakan bio-briket, kita mengurangi ketergantungan pada bahan bakar fosil sekaligus mengelola limbah kelapa sawit secara efektif.</p>
+            ]]></content:encoded>
+            <enclosure url="https://litpalm.id/assets/bio-briket.jpg" type="image/jpeg" length="148929"/>
+        </item>
+        
+        <!-- Artikel 3: Pupuk Organik -->
+        <item>
+            <title>Pupuk Organik dari Limbah Sawit: Solusi Pertanian Berkelanjutan</title>
+            <description>Limbah kelapa sawit mengandung nutrisi tinggi yang dapat diolah menjadi pupuk organik berkualitas untuk meningkatkan produktivitas pertanian.</description>
+            <link>https://litpalm.id/#galeri</link>
+            <guid isPermaLink="true">https://litpalm.id/#galeri</guid>
+            <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+            <dc:creator>LitPalm Team</dc:creator>
+            <category>Pertanian</category>
+            <category>Pupuk Organik</category>
+            <category>Keberlanjutan</category>
+            <content:encoded><![CDATA[
+                <h2>Pupuk Organik Berkualitas dari Limbah Sawit</h2>
+                <p>Limbah kelapa sawit mengandung berbagai nutrisi penting seperti nitrogen, fosfor, kalium, dan mikroelemen lain yang sangat bermanfaat untuk tanaman.</p>
+                <h3>Komposisi Pupuk Organik dari Limbah Sawit:</h3>
+                <ul>
+                    <li><strong>Janjang Kosong:</strong> Kaya akan serat dan kalium</li>
+                    <li><strong>Cangkang Sawit:</strong> Mengandung silika dan mineral</li>
+                    <li><strong>Sabut Sawit:</strong> Tinggi serat dan karbon organik</li>
+                    <li><strong>Cairan Limbah:</strong> Kaya nitrogen dan fosfor</li>
+                </ul>
+                <p>Penggunaan pupuk organik dari limbah sawit tidak hanya meningkatkan produktivitas pertanian tetapi juga membantu mengurangi penggunaan pupuk kimia yang berbahaya bagi lingkungan.</p>
+            ]]></content:encoded>
+            <enclosure url="https://litpalm.id/assets/pupuk-organik.jpg" type="image/jpeg" length="117353"/>
+        </item>
+        
+        <!-- Artikel 4: Arang Aktif -->
+        <item>
+            <title>Arang Aktif dari Cangkang Sawit: Penyaring Air dan Udara Berkualitas Tinggi</title>
+            <description>Cangkang kelapa sawit dapat diolah menjadi arang aktif premium dengan kemampuan adsorpsi tinggi untuk berbagai aplikasi industri.</description>
+            <link>https://litpalm.id/#galeri</link>
+            <guid isPermaLink="true">https://litpalm.id/#galeri</guid>
+            <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+            <dc:creator>LitPalm Team</dc:creator>
+            <category>Industri</category>
+            <category>Arang Aktif</category>
+            <category>Penyaringan</category>
+            <content:encoded><![CDATA[
+                <h2>Arang Aktif Premium dari Cangkang Sawit</h2>
+                <p>Cangkang kelapa sawit memiliki struktur pori yang ideal untuk diolah menjadi arang aktif berkualitas tinggi dengan luas permukaan hingga 1.200 m²/g.</p>
+                <h3>Aplikasi Arang Aktif dari Cangkang Sawit:</h3>
+                <ul>
+                    <li><strong>Penyaringan Air:</strong> Menghilangkan logam berat dan kontaminan</li>
+                    <li><strong>Penyaringan Udara:</strong> Menyerap gas berbahaya dan bau</li>
+                    <li><strong>Industri Makanan:</strong> Pemucatan gula dan minyak</li>
+                    <li><strong>Farmasi:</strong> Proses pemurnian obat-obatan</li>
+                    <li><strong>Kosmetik:</strong> Bahan aktif produk perawatan</li>
+                </ul>
+                <p>Dengan memanfaatkan cangkang sawit, kita mengurangi limbah sekaligus menghasilkan produk bernilai ekonomi tinggi.</p>
+            ]]></content:encoded>
+            <enclosure url="https://litpalm.id/assets/arang-aktif.jpg" type="image/jpeg" length="111302"/>
+        </item>
+        
+        <!-- Artikel 5: Biogas -->
+        <item>
+            <title>Biogas dari Cairan Limbah Sawit: Energi Terbarukan Bersih</title>
+            <description>Cairan limbah pabrik kelapa sawit dapat diolah menjadi biogas sebagai sumber energi terbarukan yang ramah lingkungan.</description>
+            <link>https://litpalm.id/#galeri</link>
+            <guid isPermaLink="true">https://litpalm.id/#galeri</guid>
+            <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+            <dc:creator>LitPalm Team</dc:creator>
+            <category>Energi Terbarukan</category>
+            <category>Biogas</category>
+            <category>Lingkungan</category>
+            <content:encoded><![CDATA[
+                <h2>Biogas: Energi Bersih dari Limbah Cair Sawit</h2>
+                <p>Cairan limbah pabrik kelapa sawit mengandung bahan organik tinggi yang dapat diolah melalui proses anaerobik untuk menghasilkan biogas berkualitas.</p>
+                <h3>Komposisi Biogas dari Limbah Sawit:</h3>
+                <ul>
+                    <li><strong>Metana (CH₄):</strong> 55-65%</li>
+                    <li><strong>Karbon Dioksida (CO₂):</strong> 35-45%</li>
+                    <li><strong>Gas Lainnya:</strong> Kurang dari 1%</li>
+                </ul>
+                <h3>Manfaat Biogas:</h3>
+                <ul>
+                    <li> Menghasilkan listrik untuk kebutuhan pabrik</li>
+                    <li> Mengurangi emisi gas rumah kaca</li>
+                    <li> Menghasilkan pupuk cair organik</li>
+                    <li> Mengurangi pencemaran air</li>
+                    <li> Meningkatkan efisiensi energi</li>
+                </ul>
+                <p>Implementasi biogas membantu pabrik kelapa sawit menjadi lebih berkelanjutan dan mandiri energi.</p>
+            ]]></content:encoded>
+            <enclosure url="https://litpalm.id/assets/biogas.jpg" type="image/jpeg" length="207284"/>
+        </item>
+        
+        <!-- Event: Workshop -->
+        <item>
+            <title>Workshop LitPalm: Pelatihan Pengelolaan Limbah Sawit untuk Masyarakat</title>
+            <description>Bergabunglah dengan workshop gratis kami untuk belajar langsung tentang pengelolaan limbah kelapa sawit yang ramah lingkungan.</description>
+            <link>https://litpalm.id/#kontak</link>
+            <guid isPermaLink="true">https://litpalm.id/workshop-november-2024</guid>
+            <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+            <dc:creator>LitPalm Team</dc:creator>
+            <category>Workshop</category>
+            <category>Pendidikan</category>
+            <category>Event</category>
+            <content:encoded><![CDATA[
+                <h2>Workshop Pengelolaan Limbah Sawit</h2>
+                <p><strong>Tanggal:</strong> 25 November 2024</p>
+                <p><strong>Tempat:</strong> Pusat Edukasi LitPalm, Jakarta</p>
+                <p><strong>Gratis dan Terbuka untuk Umum!</strong></p>
+                
+                <h3>Materi Workshop:</h3>
+                <ul>
+                    <li>Pengenalan jenis-jenis limbah kelapa sawit</li>
+                    <li>Teknologi pengolahan bio-briket</li>
+                    <li>Pembuatan pupuk organik sederhana</li>
+                    <li>Praktik langsung pembuatan produk</li>
+                    <li>Analisis bisnis pengolahan limbah</li>
+                </ul>
+                
+                <p><strong>Pendaftaran:</strong> Hubungi WhatsApp +62 812-3456-7890 atau email info@litpalm.id</p>
+                <p><strong>Kuota Terbatas!</strong> Daftar sekarang juga!</p>
+            ]]></content:encoded>
+        </item>
+        
+    </channel>
+</rss>

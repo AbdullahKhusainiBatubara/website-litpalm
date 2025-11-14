@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products xmlns="http://www.litpalm.id/schema/products"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.litpalm.id/schema/products products.xsd">
+    
+    <!-- Informasi Perusahaan -->
+    <company>
+        <name>LitPalm</name>
+        <fullname>Literasi dan Pengelolaan Limbah Sawit</fullname>
+        <description>Platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan dan inovatif</description>
+        <website>https://litpalm.id</website>
+        <email>info@litpalm.id</email>
+        <phone>+62 812-3456-7890</phone>
+        <address>
+            <street>Jl. Lingkungan Hijau No. 123</street>
+            <city>Jakarta</city>
+            <province>DKI Jakarta</province>
+            <country>Indonesia</country>
+            <postal>12345</postal>
+        </address>
+    </company>
+    
+    <!-- Kategori Produk dari Limbah Sawit -->
+    <category id="bio-briket" name="Bio-Briket">
+        <description>Bahan bakar alternatif dari janjang kosong kelapa sawit</description>
+        <waste-source>Janjang Kosong</waste-source>
+        <waste-percentage>60%</waste-percentage>
+        <products>
+            <product id="bb-001">
+                <name>Bio-Briket</name>
+                <description>Bio-briket adalah bahan bakar padat yang dihasilkan dari pengolahan janjang kosong kelapa sawit. Proses pembuatannya melibatkan pengeringan, penghancuran, dan pemadatan janjang kosong menjadi bentuk briket yang mudah digunakan. Bio-briket memiliki nilai kalor yang tinggi, ramah lingkungan, dan dapat menggantikan bahan bakar fosil. Penggunaan bio-briket membantu mengurangi emisi karbon dan mendukung keberlanjutan energi terbarukan.</description>
+                <specifications>
+                    <specification name="Nilai Kalori">4.000-4.500 kcal/kg</specification>
+                    <specification name="Kadar Abu">&lt; 5%</specification>
+                    <specification name="Kadar Air">&lt; 10%</specification>
+                    <specification name="Ukuran">5cm x 5cm x 10cm</specification>
+                </specifications>
+                <benefits>
+                    <benefit>Ramah lingkungan</benefit>
+                    <benefit>Emisi CO₂ 60% lebih rendah dari batubara</benefit>
+                    <benefit>Harga lebih ekonomis</benefit>
+                    <benefit>Terbarukan dan berkelanjutan</benefit>
+                </benefits>
+                <applications>
+                    <application>Industri kecil</application>
+                    <application>Domestik</application>
+                    <application>Boiler</application>
+                </applications>
+                <image>https://litpalm.id/assets/bio-briket.jpg</image>
+            </product>
+        </products>
+    </category>
+    
+    <category id="pupuk-organik" name="Pupuk Organik">
+        <description>Pupuk kaya nutrisi dari berbagai limbah kelapa sawit</description>
+        <waste-source>Janjang Kosong, Sabut, Cairan Limbah</waste-source>
+        <waste-percentage>40%</waste-percentage>
+        <products>
+            <product id="po-001">
+                <name>Pupuk Organik</name>
+                <description>Pupuk organik dari limbah kelapa sawit dihasilkan melalui proses komposting janjang kosong dan bahan organik lainnya. Pupuk ini kaya akan nutrisi esensial seperti nitrogen, fosfor, kalium, dan mikroba yang bermanfaat untuk tanah. Penggunaan pupuk organik membantu meningkatkan kesuburan tanah, memperbaiki struktur tanah, dan mengurangi ketergantungan pada pupuk kimia sintetis. Produk ini mendukung pertanian berkelanjutan dan ramah lingkungan.</description>
+                <specifications>
+                    <specification name="Nitrogen (N)">2-3%</specification>
+                    <specification name="Fosfor (P₂O₅)">1-2%</specification>
+                    <specification name="Kalium (K₂O)">3-4%</specification>
+                    <specification name="C/N Ratio">&lt; 20</specification>
+                </specifications>
+                <benefits>
+                    <benefit>Meningkatkan kesuburan tanah</benefit>
+                    <benefit>Meningkatkan retensi air</benefit>
+                    <benefit>Mengurangi erosi</benefit>
+                    <benefit>Aman untuk lingkungan</benefit>
+                </benefits>
+                <applications>
+                    <application>Pertanian</application>
+                    <application>Perkebunan</application>
+                    <application>Pertanian organik</application>
+                </applications>
+                <image>https://litpalm.id/assets/pupuk-organik.jpg</image>
+            </product>
+        </products>
+    </category>
+    
+    <category id="arang-aktif" name="Arang Aktif">
+        <description>Arang aktif premium dari cangkang kelapa sawit</description>
+        <waste-source>Cangkang Sawit</waste-source>
+        <waste-percentage>80%</waste-percentage>
+        <products>
+            <product id="aa-001">
+                <name>Arang Aktif</name>
+                <description>Arang aktif diproduksi dari cangkang kelapa sawit melalui proses aktivasi kimia atau fisika pada suhu tinggi. Produk ini memiliki pori-pori mikro yang sangat efektif untuk menyerap zat-zat pencemar dalam air dan udara. Arang aktif digunakan dalam berbagai aplikasi seperti penyaringan air minum, pengolahan limbah industri, dan purifikasi udara. Penggunaan arang aktif dari limbah sawit membantu mengurangi pencemaran lingkungan dan menciptakan produk bernilai tinggi.</description>
+                <specifications>
+                    <specification name="Luas Permukaan">1.000-1.200 m²/g</specification>
+                    <specification name="Kadar Abu">&lt; 5%</specification>
+                    <specification name="Kadar Kelembaban">&lt; 10%</specification>
+                    <specification name="Kekerasan">90-95%</specification>
+                </specifications>
+                <benefits>
+                    <benefit>Kemampuan adsorpsi tinggi</benefit>
+                    <benefit>Tahan lama</benefit>
+                    <benefit>Ekonomis</benefit>
+                    <benefit>Ramah lingkungan</benefit>
+                </benefits>
+                <applications>
+                    <application>Penyaringan air</application>
+                    <application>Penyaringan udara</application>
+                    <application>Industri makanan</application>
+                    <application>Farmasi</application>
+                </applications>
+                <image>https://litpalm.id/assets/arang-aktif.jpg</image>
+            </product>
+        </products>
+    </category>
+    
+    <category id="produk-anyaman" name="Produk Anyaman">
+        <description>Produk kerajinan dari sabut kelapa sawit</description>
+        <waste-source>Sabut Sawit</waste-source>
+        <waste-percentage>90%</waste-percentage>
+        <products>
+            <product id="pa-001">
+                <name>Matras</name>
+                <description>Matras dari sabut kelapa sawit dibuat melalui proses pencucian, pengeringan, dan pemintalan serat sabut menjadi bahan anyaman yang nyaman. Produk ini memiliki sifat anti-bakteri, anti-alergi, dan tahan lama. Matras sabut sawit memberikan dukungan ergonomis untuk tidur yang berkualitas dan merupakan alternatif ramah lingkungan untuk matras sintetis. Penggunaan sabut sawit dalam industri anyaman membantu mengurangi limbah dan mendukung ekonomi sirkular.</description>
+                <specifications>
+                    <specification name="Ukuran">200cm x 100cm</specification>
+                    <specification name="Ketebalan">2-3 cm</specification>
+                    <specification name="Berat">5-7 kg</specification>
+                    <specification name="Ketahanan">3-5 tahun</specification>
+                </specifications>
+                <benefits>
+                    <benefit>Tahan lama</benefit>
+                    <benefit>Ramah lingkungan</benefit>
+                    <benefit>Dekoratif</benefit>
+                    <benefit>Ekonomis</benefit>
+                </benefits>
+                <applications>
+                    <application>Dekorasi rumah</application>
+                    <application>Alat olahraga</application>
+                    <application>Alat kebersihan</application>
+                </applications>
+                <image>https://litpalm.id/assets/matras.jpg</image>
+            </product>
+        </products>
+    </category>
+    
+    <category id="kemasan" name="Kemasan Ramah Lingkungan">
+        <description>Kemasan biodegradable dari limbah kelapa sawit</description>
+        <waste-source>Serat Sawit, Janjang Kosong</waste-source>
+        <waste-percentage>70%</waste-percentage>
+        <products>
+            <product id="kr-001">
+                <name>Kemasan Ramah Lingkungan</name>
+                <description>Kemasan biodegradable dari limbah kelapa sawit dibuat dari serat sabut dan bahan organik lainnya yang dapat terurai secara alami. Produk ini merupakan alternatif untuk kemasan plastik yang sulit terurai dan mencemari lingkungan. Kemasan ramah lingkungan memiliki kekuatan dan fleksibilitas yang baik, serta dapat didaur ulang. Penggunaan kemasan ini membantu mengurangi sampah plastik dan mendukung gerakan zero waste.</description>
+                <specifications>
+                    <specification name="Ketebalan">0.5-2 mm</specification>
+                    <specification name="Kekuatan Tarik">15-25 MPa</specification>
+                    <specification name="Waktu Terurai">3-6 bulan</specification>
+                    <specification name"Tahan Air">Sedang</specification>
+                </specifications>
+                <benefits>
+                    <benefit>Biodegradable</benefit>
+                    <benefit>Food grade</benefit>
+                    <benefit>Custom design</benefit>
+                    <benefit>Mengurangi plastik</benefit>
+                </benefits>
+                <applications>
+                    <application>Kemasan makanan</application>
+                    <application>Kemasan produk organik</application>
+                    <application>Kemasan e-commerce</application>
+                </applications>
+                <image>https://litpalm.id/assets/kemasan.jpg</image>
+            </product>
+        </products>
+    </category>
+    
+    <category id="energi" name="Energi Terbarukan">
+        <description>Energi bersih dari pengolahan limbah cair sawit</description>
+        <waste-source>Cairan Limbah</waste-source>
+        <waste-percentage>100%</waste-percentage>
+        <products>
+            <product id="et-001">
+                <name>Biogas</name>
+                <description>Biogas dihasilkan dari pengolahan cairan limbah pabrik kelapa sawit (POME) melalui proses anaerobik. Gas ini terdiri dari metana dan karbon dioksida yang dapat digunakan sebagai sumber energi terbarukan untuk memasak, pemanas, atau pembangkit listrik. Pengolahan POME menjadi biogas tidak hanya mengurangi emisi gas rumah kaca tetapi juga menyediakan energi alternatif yang berkelanjutan. Teknologi ini mendukung transisi menuju energi hijau.</description>
+                <specifications>
+                    <specification name="Kandungan Metana">55-65%</specification>
+                    <specification name="Kapasitas Produksi">500-2.000 m³/hari</specification>
+                    <specification name="Efisiensi Konversi">60-70%</specification>
+                    <specification name="Kemurnian Gas">&gt; 95%</specification>
+                </specifications>
+                <benefits>
+                    <benefit>Energi terbarukan</benefit>
+                    <benefit>Mengurangi emisi</benefit>
+                    <benefit>Menghasilkan pupuk cair</benefit>
+                    <benefit>Mandiri energi</benefit>
+                </benefits>
+                <applications>
+                    <application>Listrik pabrik</application>
+                    <application>Pemanas</application>
+                    <application>Generator</application>
+                </applications>
+                <image>https://litpalm.id/assets/biogas.jpg</image>
+            </product>
+        </products>
+    </category>
+    
+    <!-- Informasi Kontak dan Layanan -->
+    <services>
+        <service id="konsultasi">
+            <name>Konsultasi Pengelolaan Limbah</name>
+            <description>Konsultasi teknis untuk pengolahan limbah kelapa sawit</description>
+            <contact>WhatsApp: +62 812-3456-7890</contact>
+        </service>
+        <service id="workshop">
+            <name>Workshop dan Pelatihan</name>
+            <description>Pelatihan praktis pengolahan limbah sawit</description>
+            <contact>Email: info@litpalm.id</contact>
+        </service>
+        <service id="edukasi">
+            <name>Program Edukasi</name>
+            <description>Program edukasi untuk masyarakat umum</description>
+            <contact>Instagram: @litpalm</contact>
+        </service>
+    </services>
+    
+    <!-- Metadata -->
+    <metadata>
+        <created>2024-11-10</created>
+        <lastUpdated>2024-11-10</lastUpdated>
+        <version>1.0</version>
+        <language>id</language>
+        <currency>IDR</currency>
+    </metadata>
+    
+</products>

@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      LitPalm - Literasi dan Pengelolaan Limbah Sawit | Solusi Ramah Lingkungan
+    </title>
+    <link rel="icon" href="assets/logo.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
+    <!-- Revisi: Menambahkan favicon yang lebih lengkap untuk SEO -->
+
+    <meta
+      name="description"
+      content="LitPalm adalah platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan dan inovatif. Pelajari cara daur ulang limbah sawit menjadi produk bermanfaat."
+    />
+    <meta
+      name="keywords"
+      content="pengelolaan limbah sawit, pemanfaatan limbah kelapa sawit, daur ulang sawit, litpalm indonesia, limbah kelapa sawit, bio-briket, pupuk organik, lingkungan"
+    />
+    <meta name="author" content="LitPalm Indonesia" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://litpalm.id/" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="LitPalm - Literasi dan Pengelolaan Limbah Sawit"
+    />
+    <meta
+      property="og:description"
+      content="Platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan dan inovatif"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://litpalm.id/" />
+    <meta property="og:image" content="./assets/hero-image.jpg" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="LitPalm - Literasi dan Pengelolaan Limbah Sawit"
+    />
+    <meta
+      name="twitter:description"
+      content="Platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan"
+    />
+    <meta name="twitter:image" content="./assets/hero-image.jpg" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "LitPalm",
+        "alternateName": "Literasi dan Pengelolaan Limbah Sawit",
+        "description": "Platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan dan inovatif",
+        "url": "https://litpalm.id/",
+        "logo": "./assets/logo.png",
+        "sameAs": [
+          "https://instagram.com/litpalm",
+          "https://wa.me/6281234567890"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+6281234567890",
+          "contactType": "customer service",
+          "availableLanguage": "Indonesian"
+        }
+      }
+    </script>
+    <!-- FAQ Schema (ditambahkan otomatis untuk memperbaiki CTR pada hasil pencarian) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apa itu LitPalm?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LitPalm adalah platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan dan inovatif. Kami menyediakan informasi, pelatihan, dan konsultasi untuk membantu masyarakat mengelola limbah sawit dengan baik."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bagaimana cara mendaftar workshop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Anda dapat mendaftar workshop melalui WhatsApp di +62 812-3456-7890 atau email ke education@litpalm.id. Pendaftaran harus dilakukan minimal 1 minggu sebelum tanggal workshop."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah konsultasi gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Konsultasi awal disediakan gratis. Untuk konsultasi mendalam atau feasibility study akan ada biaya yang disesuaikan dengan kompleksitas kebutuhan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apa yang bisa dihasilkan dari cangkang kelapa sawit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cangkang kelapa sawit dapat diproses menjadi arang aktif, bahan bakar, atau media tanam. Produk ini memiliki nilai ekonomi dan manfaat lingkungan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah tersedia pelatihan online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, LitPalm menyediakan pelatihan online melalui Zoom dan platform e-learning. Materi dapat disesuaikan dengan kebutuhan peserta."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <img
+              src="./assets/logo.png"
+              alt="LitPalm Logo"
+              class="logo-img"
+              width="48"
+              height="48"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="logo-text">LitPalm</span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#beranda" class="nav-link">Beranda</a></li>
+            <li><a href="#edukasi" class="nav-link">Edukasi</a></li>
+            <li><a href="#kalkulator" class="nav-link">Kalkulator</a></li>
+            <li><a href="#galeri" class="nav-link">Galeri</a></li>
+            <li><a href="#kontak" class="nav-link">Kontak</a></li>
+          </ul>
+          <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="beranda" class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Pengelolaan Limbah Sawit secara Ramah Lingkungan
+            </h1>
+            <p class="hero-subtitle">
+              LitPalm adalah platform edukasi untuk membantu masyarakat memahami
+              dan memanfaatkan limbah kelapa sawit menjadi produk yang bernilai
+              dan berkelanjutan.
+            </p>
+            <div class="hero-buttons">
+              <a href="#edukasi" class="btn btn-primary">Mulai Belajar</a>
+              <a href="#kalkulator" class="btn btn-secondary">Hitung Potensi</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              src="./assets/hero-image.jpg"
+              alt="Pengelolaan limbah kelapa sawit"
+              class="hero-img"
+              width="1200"
+              height="675"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-content">
+              <h2>Apa itu LitPalm?</h2>
+              <p>
+                LitPalm (Literasi dan Pengelolaan Limbah Sawit) adalah inisiatif
+                edukasi yang bertujuan untuk meningkatkan kesadaran masyarakat
+                tentang pentingnya pengelolaan limbah kelapa sawit secara
+                bertanggung jawab.
+              </p>
+              <div class="about-features">
+                <div class="feature-item">
+                  <div class="feature-icon">🌱</div>
+                  <h3>Ramah Lingkungan</h3>
+                  <p>
+                    Mengajarkan cara mengolah limbah tanpa mencemari lingkungan
+                  </p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">♻️</div>
+                  <h3>Daur Ulang</h3>
+                  <p>
+                    Memanfaatkan limbah menjadi produk yang bernilai ekonomis
+                  </p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">📚</div>
+                  <h3>Edukasi</h3>
+                  <p>
+                    Memberikan pemahaman yang mudah dipahami untuk semua
+                    kalangan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="edukasi" class="education">
+        <div class="container">
+          <h2 class="section-title">Edukasi Pengelolaan Limbah Sawit</h2>
+          <p class="section-subtitle">
+            Pelajari cara mengelola limbah kelapa sawit dengan metode yang
+            inovatif dan ramah lingkungan
+          </p>
+
+          <div class="education-grid">
+            <article
+              class="education-card"
+              data-title="Janjang Kosong"
+              data-description="Janjang kosong adalah bagian dari tandan buah segar kelapa sawit yang tersisa setelah pemisahan buah. Limbah ini dapat diolah menjadi berbagai produk bernilai tinggi. Proses pengolahan meliputi pengeringan, penghancuran, dan fermentasi untuk menghasilkan bio-briket yang efisien sebagai bahan bakar alternatif. Selain itu, janjang kosong dapat dijadikan pupuk organik melalui proses komposting yang memperkaya tanah dengan nutrisi esensial seperti nitrogen, fosfor, dan kalium. Penggunaan janjang kosong dalam pengolahan limbah membantu mengurangi emisi gas rumah kaca dan mendukung keberlanjutan lingkungan."
+            >
+              <img
+                src="./assets/janjang-kosong.jpg"
+                alt="Janjang kosong kelapa sawit"
+                class="card-img"
+                width="400"
+                height="250"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card-content">
+                <h3>Janjang Kosong</h3>
+                <p>
+                  Janjang kosong dapat diolah menjadi bio-briket, pupuk organik,
+                  atau kompos yang kaya akan nutrisi untuk tanaman.
+                </p>
+                <button class="card-link btn-modal">
+                  Pelajari lebih lanjut →
+                </button>
+              </div>
+            </article>
+
+            <article
+              class="education-card"
+              data-title="Cangkang Sawit"
+              data-description="Cangkang kelapa sawit merupakan lapisan keras yang melindungi biji sawit. Limbah ini memiliki nilai kalor tinggi sehingga cocok dijadikan bahan bakar alternatif di boiler pabrik. Selain itu, cangkang dapat diproses menjadi arang aktif melalui aktivasi kimia atau fisika, yang efektif untuk menyaring air dan udara. Penggunaan cangkang sebagai media tanam juga populer karena kemampuannya menahan air dan memberikan drainase yang baik. Pengolahan cangkang sawit tidak hanya mengurangi limbah padat tetapi juga menciptakan produk yang menguntungkan secara ekonomi."
+            >
+              <img
+                src="./assets/cangkang-sawit.jpg"
+                alt="Cangkang kelapa sawit"
+                class="card-img"
+                width="400"
+                height="250"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card-content">
+                <h3>Cangkang Sawit</h3>
+                <p>
+                  Cangkang kelapa sawit dapat digunakan sebagai bahan bakar
+                  alternatif, arang aktif, atau media tanam.
+                </p>
+                <button class="card-link btn-modal">
+                  Pelajari lebih lanjut →
+                </button>
+              </div>
+            </article>
+
+            <article
+              class="education-card"
+              data-title="Sabut Sawit"
+              data-description="Sabut kelapa sawit adalah serat yang menyelubungi buah sawit. Limbah ini dapat diolah menjadi berbagai produk seperti matras, bantal, dan bahan isolasi thermal karena sifatnya yang lembut dan tahan lama. Proses pengolahan meliputi pencucian, pengeringan, dan pemintalan menjadi benang. Sabut juga dapat dijadikan bahan baku kertas daur ulang atau kompos. Penggunaan sabut sawit dalam industri membantu mengurangi ketergantungan pada bahan sintetis dan mendukung ekonomi sirkular."
+            >
+              <img
+                src="./assets/sabut-sawit.jpg"
+                alt="Sabut kelapa sawit"
+                class="card-img"
+                width="400"
+                height="250"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card-content">
+                <h3>Sabut Sawit</h3>
+                <p>
+                  Sabut kelapa sawit dapat diolah menjadi berbagai produk
+                  seperti matras, bantal, dan bahan isolasi thermal.
+                </p>
+                <button class="card-link btn-modal">
+                  Pelajari lebih lanjut →
+                </button>
+              </div>
+            </article>
+
+            <article
+              class="education-card"
+              data-title="Cairan Limbah"
+              data-description="Cairan limbah pabrik kelapa sawit, yang dikenal sebagai Palm Oil Mill Effluent (POME), mengandung bahan organik tinggi. Limbah ini dapat diolah menjadi biogas melalui proses anaerobik, menghasilkan energi terbarukan dan mengurangi emisi metana. Selain itu, cairan limbah dapat diproses menjadi pupuk cair organik yang kaya nutrisi untuk pertanian. Pengolahan POME yang efektif tidak hanya mengatasi masalah pencemaran lingkungan tetapi juga menciptakan sumber energi alternatif dan pupuk berkualitas."
+            >
+              <img
+                src="./assets/cairan-limbah.jpg"
+                alt="Pengolahan cairan limbah"
+                class="card-img"
+                width="400"
+                height="250"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card-content">
+                <h3>Cairan Limbah</h3>
+                <p>
+                  Cairan limbah pabrik kelapa sawit dapat diolah menjadi biogas
+                  atau pupuk cair organik.
+                </p>
+                <button class="card-link btn-modal">
+                  Pelajari lebih lanjut →
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Calculator Section -->
+      <section id="kalkulator" class="calculator">
+        <div class="container">
+          <h2 class="section-title">Kalkulator Daur Ulang Limbah Sawit</h2>
+          <p class="section-subtitle">
+            Hitung potensi limbah sawit yang bisa diolah menjadi produk ramah
+            lingkungan
+          </p>
+
+          <div class="calculator-container">
+            <div class="calculator-form">
+              <div class="form-group">
+                <label for="tonnage">Jumlah Limbah (Ton per Bulan)</label>
+                <input
+                  type="number"
+                  id="tonnage"
+                  placeholder="Masukkan jumlah limbah"
+                  min="0"
+                  step="0.1"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="waste-type">Jenis Limbah</label>
+                <select id="waste-type">
+                  <option value="janjang">Janjang Kosong</option>
+                  <option value="cangkang">Cangkang Sawit</option>
+                  <option value="sabut">Sabut Sawit</option>
+                  <option value="campuran">Campuran</option>
+                </select>
+              </div>
+
+              <button id="calculate-btn" class="btn btn-primary">
+                Hitung Potensi
+              </button>
+            </div>
+
+            <div class="calculator-results" id="results" style="display: none">
+              <h3>Hasil Perhitungan</h3>
+              <div class="result-item">
+                <span class="result-label">Bio-briket:</span>
+                <span class="result-value" id="briket-result">0 ton</span>
+              </div>
+              <div class="result-item">
+                <span class="result-label">Pupuk Organik:</span>
+                <span class="result-value" id="pupuk-result">0 ton</span>
+              </div>
+              <div class="result-item">
+                <span class="result-label">Estimasi Nilai Ekonomi:</span>
+                <span class="result-value" id="nilai-result">Rp 0</span>
+              </div>
+              <div class="result-item">
+                <span class="result-label">Reduksi Emisi CO₂:</span>
+                <span class="result-value" id="emisi-result">0 ton</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quiz Section -->
+      <section class="quiz">
+        <div class="container">
+          <h2 class="section-title">Kuis Lingkungan</h2>
+          <p class="section-subtitle">
+            Tes pengetahuan Anda tentang pengelolaan limbah sawit
+          </p>
+
+          <div class="quiz-container">
+            <div class="quiz-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+              </div>
+              <span class="progress-text"
+                >Pertanyaan <span id="current-question">1</span> dari
+                <span id="total-questions">5</span></span
+              >
+            </div>
+
+            <div class="quiz-content">
+              <div class="question-container" id="question-container">
+                <h3 id="question-text">Memuat pertanyaan...</h3>
+                <div class="answers-container" id="answers-container">
+                  <!-- Jawaban akan dimuat dengan JavaScript -->
+                </div>
+              </div>
+
+              <div class="quiz-result" id="quiz-result" style="display: none">
+                <h3>Hasil Kuis</h3>
+                <div class="score-display">
+                  <span class="score-number" id="score-number">0</span>
+                  <span class="score-total">/ 5</span>
+                </div>
+                <p id="result-message"></p>
+                <button id="restart-quiz" class="btn btn-secondary">
+                  Ulangi Kuis
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="galeri" class="gallery">
+        <div class="container">
+          <h2 class="section-title">Galeri Hasil Pengolahan Limbah</h2>
+          <p class="section-subtitle">
+            Lihat berbagai produk inovatif dari limbah kelapa sawit
+          </p>
+
+          <div class="gallery-grid">
+            <div
+              class="gallery-item"
+              data-title="Bio-Briket"
+              data-description="Bio-briket adalah bahan bakar alternatif yang dihasilkan dari pengolahan janjang kosong kelapa sawit. Proses pembuatannya melibatkan pengeringan, penghancuran, dan pemadatan janjang kosong menjadi bentuk briket yang mudah digunakan. Bio-briket memiliki nilai kalor yang tinggi, ramah lingkungan, dan dapat menggantikan bahan bakar fosil. Penggunaan bio-briket membantu mengurangi emisi karbon dan mendukung keberlanjutan energi terbarukan."
+            >
+              <img
+                src="./assets/bio-briket.jpg"
+                alt="Bio-briket dari limbah sawit"
+                class="gallery-img"
+                width="600"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="gallery-overlay">
+                <h3>Bio-Briket</h3>
+                <p>Bahan bakar alternatif dari janjang kosong</p>
+              </div>
+            </div>
+
+            <div
+              class="gallery-item"
+              data-title="Pupuk Organik"
+              data-description="Pupuk organik dari limbah kelapa sawit dihasilkan melalui proses komposting janjang kosong dan bahan organik lainnya. Pupuk ini kaya akan nutrisi esensial seperti nitrogen, fosfor, kalium, dan mikroba yang bermanfaat untuk tanah. Penggunaan pupuk organik membantu meningkatkan kesuburan tanah, memperbaiki struktur tanah, dan mengurangi ketergantungan pada pupuk kimia sintetis. Produk ini mendukung pertanian berkelanjutan dan ramah lingkungan."
+            >
+              <img
+                src="./assets/pupuk-organik.jpg"
+                alt="Pupuk organik dari limbah sawit"
+                class="gallery-img"
+                width="600"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="gallery-overlay">
+                <h3>Pupuk Organik</h3>
+                <p>Pupuk kaya nutrisi untuk pertanian</p>
+              </div>
+            </div>
+
+            <div
+              class="gallery-item"
+              data-title="Arang Aktif"
+              data-description="Arang aktif diproduksi dari cangkang kelapa sawit melalui proses aktivasi kimia atau fisika pada suhu tinggi. Produk ini memiliki pori-pori mikro yang sangat efektif untuk menyerap zat-zat pencemar dalam air dan udara. Arang aktif digunakan dalam berbagai aplikasi seperti penyaringan air minum, pengolahan limbah industri, dan purifikasi udara. Penggunaan arang aktif dari limbah sawit membantu mengurangi pencemaran lingkungan dan menciptakan produk bernilai tinggi."
+            >
+              <img
+                src="./assets/arang-aktif.jpg"
+                alt="Arang aktif dari cangkang sawit"
+                class="gallery-img"
+                width="600"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="gallery-overlay">
+                <h3>Arang Aktif</h3>
+                <p>Penyaring air dan udara berkualitas</p>
+              </div>
+            </div>
+
+            <div
+              class="gallery-item"
+              data-title="Matras"
+              data-description="Matras dari sabut kelapa sawit dibuat melalui proses pencucian, pengeringan, dan pemintalan serat sabut menjadi bahan anyaman yang nyaman. Produk ini memiliki sifat anti-bakteri, anti-alergi, dan tahan lama. Matras sabut sawit memberikan dukungan ergonomis untuk tidur yang berkualitas dan merupakan alternatif ramah lingkungan untuk matras sintetis. Penggunaan sabut sawit dalam industri anyaman membantu mengurangi limbah dan mendukung ekonomi sirkular."
+            >
+              <img
+                src="./assets/matras.jpg"
+                alt="Matras dari sabut sawit"
+                class="gallery-img"
+                width="600"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="gallery-overlay">
+                <h3>Matras</h3>
+                <p>Produk anyaman dari sabut kelapa sawit</p>
+              </div>
+            </div>
+
+            <div
+              class="gallery-item"
+              data-title="Kemasan Ramah Lingkungan"
+              data-description="Kemasan biodegradable dari limbah kelapa sawit dibuat dari serat sabut dan bahan organik lainnya yang dapat terurai secara alami. Produk ini merupakan alternatif untuk kemasan plastik yang sulit terurai dan mencemari lingkungan. Kemasan ramah lingkungan memiliki kekuatan dan fleksibilitas yang baik, serta dapat didaur ulang. Penggunaan kemasan ini membantu mengurangi sampah plastik dan mendukung gerakan zero waste."
+            >
+              <img
+                src="./assets/kemasan.jpg"
+                alt="Kemasan ramah lingkungan"
+                class="gallery-img"
+                width="600"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="gallery-overlay">
+                <h3>Kemasan Ramah Lingkungan</h3>
+                <p>Kemasan biodegradable dari limbah sawit</p>
+              </div>
+            </div>
+
+            <div
+              class="gallery-item"
+              data-title="Biogas"
+              data-description="Biogas dihasilkan dari pengolahan cairan limbah pabrik kelapa sawit (POME) melalui proses anaerobik. Gas ini terdiri dari metana dan karbon dioksida yang dapat digunakan sebagai sumber energi terbarukan untuk memasak, pemanas, atau pembangkit listrik. Pengolahan POME menjadi biogas tidak hanya mengurangi emisi gas rumah kaca tetapi juga menyediakan energi alternatif yang berkelanjutan. Teknologi ini mendukung transisi menuju energi hijau."
+            >
+              <img
+                src="./assets/biogas.jpg"
+                alt="Biogas dari cairan limbah"
+                class="gallery-img"
+                width="600"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="gallery-overlay">
+                <h3>Biogas</h3>
+                <p>Energi terbarukan dari cairan limbah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="kontak" class="contact">
+        <div class="container">
+          <h2 class="section-title">Hubungi Kami</h2>
+          <p class="section-subtitle">
+            Bergabunglah dalam gerakan pengelolaan limbah sawit yang
+            berkelanjutan
+          </p>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Informasi Kontak</h3>
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>info@litpalm.online</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div class="contact-details">
+                  <h4>WhatsApp</h4>
+                  <p>+62 856-6852-6866</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-details">
+                  <h4>Alamat</h4>
+                  <p>Jl. jeddah no 11</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <h3>Ikuti Kami</h3>
+              <p>Dapatkan informasi terbaru tentang pengelolaan limbah sawit</p>
+              <div class="social-links">
+                <a
+                  href="https://www.instagram.com/husiiiiinnnn/"
+                  target="_blank"
+                  class="social-link instagram"
+                >
+                  <span>Instagram</span>
+                </a>
+                <a
+                  href="https://wa.me/6285668526866"
+                  target="_blank"
+                  class="social-link whatsapp"
+                >
+                  <span>WhatsApp</span>
+                </a>
+                <a href="mailto:info@litpalm.id" class="social-link email">
+                  <span>Email</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="./assets/logo.png"
+              alt="LitPalm Logo"
+              class="footer-logo-img"
+              width="64"
+              height="64"
+              loading="lazy"
+              decoding="async"
+            />
+            <h3>LitPalm</h3>
+            <p>Literasi dan Pengelolaan Limbah Sawit</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-section">
+              <h4>Menu</h4>
+              <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#edukasi">Edukasi</a></li>
+                <li><a href="#kalkulator">Kalkulator</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h4>Layanan</h4>
+              <ul>
+                <li><a href="#edukasi">Edukasi</a></li>
+                <li><a href="#kalkulator">Kalkulator</a></li>
+                <li><a href="#kontak">Konsultasi</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h4>Kontak</h4>
+              <ul>
+                <li><a href="mailto:info@litpalm.id">info@litpalm.id</a></li>
+                <li><a href="https://wa.me/6285668526866">WhatsApp</a></li>
+                <li><a href="https://www.instagram.com/husiiiiinnnn/">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 LitPalm. Hak Cipta Dilindungi. | Dibuat dengan ❤️ untuk
+            lingkungan Indonesia
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+      <span>↑</span>
+    </button>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
