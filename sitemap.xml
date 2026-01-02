@@ -5,17 +5,17 @@
     
     <!-- Halaman Utama -->
     <url>
-        <loc>https://litpalm.id/</loc>
+        <loc>https://litpalm.site/</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://litpalm.id/assets/hero-image.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/hero-image.jpg</image:loc>
             <image:title>Hero Image - Pengelolaan Limbah Sawit</image:title>
             <image:caption>Pabrik pengolahan limbah kelapa sawit modern yang ramah lingkungan</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/logo.png</image:loc>
+            <image:loc>https://litpalm.site/assets/logo.png</image:loc>
             <image:title>LitPalm Logo</image:title>
             <image:caption>Logo LitPalm - Literasi dan Pengelolaan Limbah Sawit</image:caption>
         </image:image>
@@ -23,7 +23,7 @@
     
     <!-- Section Beranda -->
     <url>
-        <loc>https://litpalm.id/#beranda</loc>
+        <loc>https://litpalm.site/#beranda</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -31,27 +31,27 @@
     
     <!-- Section Edukasi -->
     <url>
-        <loc>https://litpalm.id/#edukasi</loc>
+        <loc>https://litpalm.site/#edukasi</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
-            <image:loc>https://litpalm.id/assets/janjang-kosong.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/janjang-kosong.jpg</image:loc>
             <image:title>Janjang Kosong Kelapa Sawit</image:title>
             <image:caption>Janjang kosong kelapa sawit yang siap diolah menjadi produk ramah lingkungan</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/cangkang-sawit.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/cangkang-sawit.jpg</image:loc>
             <image:title>Cangkang Kelapa Sawit</image:title>
             <image:caption>Cangkang kelapa sawit untuk diolah menjadi arang aktif dan bahan bakar</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/sabut-sawit.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/sabut-sawit.jpg</image:loc>
             <image:title>Sabut Kelapa Sawit</image:title>
             <image:caption>Sabut kelapa sawit untuk produk anyaman dan media tanam</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/cairan-limbah.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/cairan-limbah.jpg</image:loc>
             <image:title>Pengolahan Cairan Limbah</image:title>
             <image:caption>Instalasi modern pengolahan cairan limbah pabrik kelapa sawit</image:caption>
         </image:image>
@@ -59,7 +59,7 @@
     
     <!-- Section Kalkulator -->
     <url>
-        <loc>https://litpalm.id/#kalkulator</loc>
+        <loc>https://litpalm.site/#kalkulator</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -67,37 +67,37 @@
     
     <!-- Section Galeri -->
     <url>
-        <loc>https://litpalm.id/#galeri</loc>
+        <loc>https://litpalm.site/#galeri</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
-            <image:loc>https://litpalm.id/assets/bio-briket.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/bio-briket.jpg</image:loc>
             <image:title>Bio-Briket dari Limbah Sawit</image:title>
             <image:caption>Bio-briket berkualitas tinggi dari limbah kelapa sawit sebagai bahan bakar alternatif</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/pupuk-organik.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/pupuk-organik.jpg</image:loc>
             <image:title>Pupuk Organik dari Limbah Sawit</image:title>
             <image:caption>Pupuk organik kaya nutrisi dari limbah kelapa sawit untuk pertanian berkelanjutan</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/arang-aktif.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/arang-aktif.jpg</image:loc>
             <image:title>Arang Aktif dari Cangkang Sawit</image:title>
             <image:caption>Arang aktif premium dari cangkang kelapa sawit untuk penyaringan air dan udara</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/matras.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/matras.jpg</image:loc>
             <image:title>Matras Anyaman dari Sabut Sawit</image:title>
             <image:caption>Matras anyaman berkualitas dari sabut kelapa sawit yang ramah lingkungan</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/kemasan.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/kemasan.jpg</image:loc>
             <image:title>Kemasan Ramah Lingkungan</image:title>
             <image:caption>Kemasan inovatif biodegradable dari limbah kelapa sawit</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://litpalm.id/assets/biogas.jpg</image:loc>
+            <image:loc>https://litpalm.site/assets/biogas.jpg</image:loc>
             <image:title>Instalasi Biogas dari Limbah Sawit</image:title>
             <image:caption>Instalasi biogas modern menghasilkan energi terbarukan dari cairan limbah</image:caption>
         </image:image>
@@ -105,7 +105,7 @@
     
     <!-- Section Kontak -->
     <url>
-        <loc>https://litpalm.id/#kontak</loc>
+        <loc>https://litpalm.site/#kontak</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>

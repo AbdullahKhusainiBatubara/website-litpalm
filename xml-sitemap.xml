@@ -3,21 +3,21 @@
 
     <!-- XML Files Sitemap -->
     <url>
-        <loc>https://litpalm.id/products.xml</loc>
+        <loc>https://litpalm.site/products.xml</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://litpalm.id/education.xml</loc>
+        <loc>https://litpalm.site/education.xml</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://litpalm.id/contact.xml</loc>
+        <loc>https://litpalm.site/contact.xml</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
