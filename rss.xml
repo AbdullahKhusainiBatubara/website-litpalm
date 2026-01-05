@@ -7,7 +7,7 @@
     <channel>
         <title>Platform Edukasi Pengelolaan Limbah Kelapa Sawit di Indonesia</title>
         <description>Platform edukasi tentang pengelolaan limbah kelapa sawit secara ramah lingkungan dan inovatif</description>
-        <link>https://litpalm.site/</link>
+        <link>https://sti2024dev.site/STI-A-2024/240203001</link>
         <language>id</language>
         <copyright>© 2024 LitPalm. Hak Cipta Dilindungi.</copyright>
         <managingEditor>info@litpalm.site (LitPalm Team)</managingEditor>
@@ -19,11 +19,11 @@
         <category>Limbah Sawit</category>
         <generator>LitPalm RSS Generator</generator>
         <docs>https://www.rssboard.org/rss-specification</docs>
-        <atom:link href="https://litpalm.site/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://sti2024dev.site/STI-A-2024/240203001/rss.xml" rel="self" type="application/rss+xml"/>
         <image>
-            <url>https://litpalm.site/assets/logo.png</url>
+            <url>https://sti2024dev.site/STI-A-2024/240203001/assets/logo.png</url>
             <title>LitPalm Logo</title>
-            <link>https://litpalm.site/</link>
+            <link>https://sti2024dev.site/STI-A-2024/240203001/</link>
             <description>LitPalm - Literasi dan Pengelolaan Limbah Sawit</description>
             <width>144</width>
             <height>144</height>
@@ -33,8 +33,8 @@
         <item>
             <title>Pengelolaan Limbah Kelapa Sawit: Solusi Ramah Lingkungan untuk Masa Depan</title>
             <description>Pelajari cara mengelola limbah kelapa sawit secara bertanggung jawab dan mengubahnya menjadi produk bernilai ekonomis yang ramah lingkungan.</description>
-            <link>https://litpalm.site/#edukasi</link>
-            <guid isPermaLink="true">https://litpalm.site/#edukasi</guid>
+            <link>https://sti2024dev.site/STI-A-2024/240203001/edukasi</link>
+            <guid isPermaLink="true">https://sti2024dev.site/STI-A-2024/240203001/edukasi</guid>
             <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
             <dc:creator>LitPalm Team</dc:creator>
             <category>Lingkungan</category>
@@ -52,15 +52,15 @@
                 </ul>
                 <p>LitPalm hadir untuk memberikan edukasi tentang bagaimana mengubah limbah ini menjadi produk yang bernilai dan berkelanjutan.</p>
             ]]></content:encoded>
-            <enclosure url="https://litpalm.site/assets/hero-image.jpg" type="image/jpeg" length="167671"/>
+            <enclosure url="https://sti2024dev.site/STI-A-2024/240203001/assets/hero-image.jpg" type="image/jpeg" length="167671"/>
         </item>
         
         <!-- Artikel 2: Bio-Briket -->
         <item>
             <title>Bio-Briket dari Janjang Kosong: Bahan Bakar Alternatif Ramah Lingkungan</title>
             <description>Temukan bagaimana janjang kosong kelapa sawit dapat diolah menjadi bio-briket berkualitas tinggi sebagai alternatif bahan bakar fosil.</description>
-            <link>https://litpalm.site/#galeri</link>
-            <guid isPermaLink="true">https://litpalm.site/#galeri</guid>
+            <link>https://sti2024dev.site/STI-A-2024/240203001/galeri</link>
+            <guid isPermaLink="true">https://sti2024dev.site/STI-A-2024/240203001/galeri</guid>
             <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
             <dc:creator>LitPalm Team</dc:creator>
             <category>Energi</category>
@@ -79,15 +79,15 @@
                 </ul>
                 <p>Dengan menggunakan bio-briket, kita mengurangi ketergantungan pada bahan bakar fosil sekaligus mengelola limbah kelapa sawit secara efektif.</p>
             ]]></content:encoded>
-            <enclosure url="https://litpalm.site/assets/bio-briket.jpg" type="image/jpeg" length="148929"/>
+            <enclosure url="https://sti2024dev.site/STI-A-2024/240203001/assets/bio-briket.jpg" type="image/jpeg" length="148929"/>
         </item>
         
         <!-- Artikel 3: Pupuk Organik -->
         <item>
             <title>Pupuk Organik dari Limbah Sawit: Solusi Pertanian Berkelanjutan</title>
             <description>Limbah kelapa sawit mengandung nutrisi tinggi yang dapat diolah menjadi pupuk organik berkualitas untuk meningkatkan produktivitas pertanian.</description>
-            <link>https://litpalm.site/#galeri</link>
-            <guid isPermaLink="true">https://litpalm.site/#galeri</guid>
+            <link>https://sti2024dev.site/STI-A-2024/240203001/galeri</link>
+            <guid isPermaLink="true">https://sti2024dev.site/STI-A-2024/240203001/galeri</guid>
             <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
             <dc:creator>LitPalm Team</dc:creator>
             <category>Pertanian</category>
@@ -105,15 +105,15 @@
                 </ul>
                 <p>Penggunaan pupuk organik dari limbah sawit tidak hanya meningkatkan produktivitas pertanian tetapi juga membantu mengurangi penggunaan pupuk kimia yang berbahaya bagi lingkungan.</p>
             ]]></content:encoded>
-            <enclosure url="https://litpalm.site/assets/pupuk-organik.jpg" type="image/jpeg" length="117353"/>
+            <enclosure url="https://sti2024dev.site/STI-A-2024/240203001/assets/pupuk-organik.jpg" type="image/jpeg" length="117353"/>
         </item>
         
         <!-- Artikel 4: Arang Aktif -->
         <item>
             <title>Arang Aktif dari Cangkang Sawit: Penyaring Air dan Udara Berkualitas Tinggi</title>
             <description>Cangkang kelapa sawit dapat diolah menjadi arang aktif premium dengan kemampuan adsorpsi tinggi untuk berbagai aplikasi industri.</description>
-            <link>https://litpalm.site/#galeri</link>
-            <guid isPermaLink="true">https://litpalm.site/#galeri</guid>
+            <link>https://sti2024dev.site/STI-A-2024/240203001/galeri</link>
+            <guid isPermaLink="true">https://sti2024dev.site/STI-A-2024/240203001/galeri</guid>
             <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
             <dc:creator>LitPalm Team</dc:creator>
             <category>Industri</category>
@@ -132,15 +132,15 @@
                 </ul>
                 <p>Dengan memanfaatkan cangkang sawit, kita mengurangi limbah sekaligus menghasilkan produk bernilai ekonomi tinggi.</p>
             ]]></content:encoded>
-            <enclosure url="https://litpalm.site/assets/arang-aktif.jpg" type="image/jpeg" length="111302"/>
+            <enclosure url="https://sti2024dev.site/STI-A-2024/240203001/assets/arang-aktif.jpg" type="image/jpeg" length="111302"/>
         </item>
         
         <!-- Artikel 5: Biogas -->
         <item>
             <title>Biogas dari Cairan Limbah Sawit: Energi Terbarukan Bersih</title>
             <description>Cairan limbah pabrik kelapa sawit dapat diolah menjadi biogas sebagai sumber energi terbarukan yang ramah lingkungan.</description>
-            <link>https://litpalm.site/#galeri</link>
-            <guid isPermaLink="true">https://litpalm.site/#galeri</guid>
+            <link>https://sti2024dev.site/STI-A-2024/240203001/galeri</link>
+            <guid isPermaLink="true">https://sti2024dev.site/STI-A-2024/240203001/galeri</guid>
             <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
             <dc:creator>LitPalm Team</dc:creator>
             <category>Energi Terbarukan</category>
@@ -165,15 +165,15 @@
                 </ul>
                 <p>Implementasi biogas membantu pabrik kelapa sawit menjadi lebih berkelanjutan dan mandiri energi.</p>
             ]]></content:encoded>
-            <enclosure url="https://litpalm.site/assets/biogas.jpg" type="image/jpeg" length="207284"/>
+            <enclosure url="https://sti2024dev.site/STI-A-2024/240203001/assets/biogas.jpg" type="image/jpeg" length="207284"/>
         </item>
         
         <!-- Event: Workshop -->
         <item>
             <title>Workshop LitPalm: Pelatihan Pengelolaan Limbah Sawit untuk Masyarakat</title>
             <description>Bergabunglah dengan workshop gratis kami untuk belajar langsung tentang pengelolaan limbah kelapa sawit yang ramah lingkungan.</description>
-            <link>https://litpalm.site/#kontak</link>
-            <guid isPermaLink="true">https://litpalm.site/workshop-november-2024</guid>
+            <link>https://sti2024dev.site/STI-A-2024/240203001/kontak</link>
+            <guid isPermaLink="true">https://sti2024dev.site/STI-A-2024/240203001/workshop-november-2024</guid>
             <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
             <dc:creator>LitPalm Team</dc:creator>
             <category>Workshop</category>

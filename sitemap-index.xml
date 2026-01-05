@@ -3,19 +3,19 @@
 
     <!-- Main Sitemap -->
     <sitemap>
-        <loc>https://litpalm.site/sitemap.xml</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/sitemap.xml</loc>
         <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     </sitemap>
 
     <!-- Mobile Sitemap -->
     <sitemap>
-        <loc>https://litpalm.site/mobile-sitemap.xml</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/mobile-sitemap.xml</loc>
         <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     </sitemap>
 
     <!-- XML Files Sitemap -->
     <sitemap>
-        <loc>https://litpalm.site/xml-sitemap.xml</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/xml-sitemap.xml</loc>
         <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     </sitemap>
     <!-- Revisi: Menambahkan XML sitemap ke index -->
@@ -23,7 +23,7 @@
     <!-- Image Sitemap (dalam main sitemap) -->
     <!-- RSS Feed -->
     <sitemap>
-        <loc>https://litpalm.site/rss.xml</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/rss.xml</loc>
         <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     </sitemap>
 

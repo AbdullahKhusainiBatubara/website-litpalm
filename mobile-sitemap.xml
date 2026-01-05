@@ -4,7 +4,7 @@
     
     <!-- Mobile Sitemap untuk LitPalm -->
     <url>
-        <loc>https://litpalm.site/</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/sitemap.xml</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -12,7 +12,7 @@
     </url>
     
     <url>
-        <loc>https://litpalm.site/#beranda</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/beranda</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -20,7 +20,7 @@
     </url>
     
     <url>
-        <loc>https://litpalm.site/#edukasi</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/edukasi</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -28,7 +28,7 @@
     </url>
     
     <url>
-        <loc>https://litpalm.site/#kalkulator</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/kalkulator</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -36,7 +36,7 @@
     </url>
     
     <url>
-        <loc>https://litpalm.site/#galeri</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/galeri</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -44,7 +44,7 @@
     </url>
     
     <url>
-        <loc>https://litpalm.site/#kontak</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/kontak</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>

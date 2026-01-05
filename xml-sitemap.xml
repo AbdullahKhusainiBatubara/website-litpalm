@@ -3,24 +3,17 @@
 
     <!-- XML Files Sitemap -->
     <url>
-        <loc>https://litpalm.site/products.xml</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/products.xml</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://litpalm.site/education.xml</loc>
+        <loc>https://sti2024dev.site/STI-A-2024/240203001/education.xml</loc>
         <lastmod>2024-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://litpalm.site/contact.xml</loc>
-        <lastmod>2024-11-10</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
     </url>
 
 </urlset>

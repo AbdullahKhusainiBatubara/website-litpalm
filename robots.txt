@@ -7,10 +7,10 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap locations
-Sitemap: https://litpalm.id/sitemap-index.xml
-Sitemap: https://litpalm.id/sitemap.xml
-Sitemap: https://litpalm.id/mobile-sitemap.xml
-Sitemap: https://litpalm.id/xml-sitemap.xml
+Sitemap: https://sti2024dev.site/STI-A-2024/240203001/sitemap-index.xml
+Sitemap: https://sti2024dev.site/STI-A-2024/240203001/sitemap.xml
+Sitemap: https://sti2024dev.site/STI-A-2024/240203001/mobile-sitemap.xml
+Sitemap: https://sti2024dev.site/STI-A-2024/240203001/xml-sitemap.xml
 <!-- Revisi: Menambahkan XML sitemap ke robots.txt -->
 
 # Allow all search engines
